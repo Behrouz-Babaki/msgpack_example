@@ -1,4 +1,6 @@
 
+Run `make test` to see a working example
+
 ### Saving the data in C++
 
 Use macro `MSGPACK_DEFINE` in your class declaration:
@@ -43,3 +45,4 @@ import msgpack
 with open('output.data', 'rb') as f:
     data = msgpack.load(f)
 ```
+
